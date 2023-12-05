@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container aboutus-content d-flex flex-column justify-content-center align-items-center">
+    <div class="text-center w-75 ms-5 me-5">
+        <h2 class="mb-4 text-danger fst-italic">ABOUT US</h2>
+        <p class="fs-5">Here, ancient customs and future trends coexist, and the intricacies of Bangladeshi culture blend seamlessly together over an Ethiopian-brewed coffee, or a bowl of Senegalese black-eyed pea stew and a side of spicy Ghanaian plantains.</p>
+    </div>
+    <div class="d-flex flex-row justify-content-evenly align-items-center mt-4">
+        <div class="aboutus-image rounded-5">
+            <img class="rounded-3" src="{% static 'images/aboutus.jpg' %}" alt="">
+        </div>
+        <div class="aboutus-title2">
+            <p class="fs-5 text-success">Inspired by our Co-Founder and Executive's mission to share Bangladeshi culture through food, Yummy Inn reflects the depth, richness, and vibrancy of Bangladesh's diverse culinary traditions in a modern, fast-casual setting.</p>
+        </div>
+        
+    </div>
+</div>
+
+
+{% endblock %}
